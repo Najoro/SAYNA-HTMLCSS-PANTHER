@@ -341,30 +341,31 @@ main {
 @media (max-width: 789px) {
   main {
     margin: 0;
+    padding: 0;
   }
-  .wakanda-forever {
-    width: 100%;
+  .black-panther {
     display: flex !important;
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
   }
-  .wakanda-forever span {
+  .black-panther span {
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .wakanda-forever span h1, .wakanda-forever span h2, .wakanda-forever span p, .wakanda-forever span a {
+  .black-panther span h1, .black-panther span h2, .black-panther span p, .black-panther span a {
     margin: 0px !important;
   }
-  .wakanda-forever span h1 {
+  .black-panther span h1 {
     text-align: center;
   }
-  .wakanda-forever span p {
+  .black-panther span p {
     width: 100%;
   }
   .autre-personnage {
+    width: 100% !important;
     flex-direction: column;
     align-items: start;
     justify-content: center;
@@ -746,4 +747,5 @@ main {
     border-radius: 20px !important;
   }
 }
+
 /*# sourceMappingURL=index.css.map */
